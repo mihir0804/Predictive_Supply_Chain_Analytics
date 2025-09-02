@@ -5,6 +5,28 @@ This repository applies advanced machine learning techniques to Supply Chain Man
 The goal is to build data-driven solutions that enhance efficiency, reduce costs, and enable smarter decision-making in supply chain operations.
 
 ---
+predictive-supply-chain-analytics/
+│
+├── data/                     # Raw and processed datasets
+│   └── scm_dataset.csv
+│
+├── notebooks/                # Jupyter notebooks for each project stage
+│   ├── 1_EDA.ipynb
+│   ├── 2_Preprocessing.ipynb
+│   ├── 3_Modeling.ipynb
+│   ├── 4_Model_Evaluation.ipynb
+│   └── 5_Insights.ipynb
+│
+├── models/                   # Saved trained models
+│   └── scm_best_model.joblib
+│
+├── reports/                  # Generated reports (PDF, markdown, etc.)
+│   └── scm_analysis_report.pdf
+│
+├── requirements.txt          # Python dependencies
+├── README.md                 # Project documentation
+└── LICENSE                   # Apache 2.0 License
+
 
 ## Project Workflow
 The project is structured into modular Jupyter notebooks that represent different stages of the pipeline:
